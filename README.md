@@ -14,5 +14,7 @@ the game has been built using [JavaScript](https://developer.mozilla.org/en-US/d
 
 # UI
 
+https://github.com/eltacshikhsaidov/tic-tac-toe/blob/master/resources/animation.gif?raw=true
+
 
 # I hope you enjoy the game!
