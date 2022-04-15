@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 213, 213);
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1, .c2, .c3 {
+    display: flex;
+    border: 0.1px solid black;
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    /* custom */
+    color: black;
+    font-weight: normal;
+    background-color: white;
+    cursor: pointer;
+    pointer-events: auto;
+    
+}
+
+.c1:hover,
+.c2:hover,
+.c3:hover {
+    background-color: rgb(228, 222, 222);
+    transition: all 0.5s;
+}
+
+
+
+.third-row .c1 {
+    border-bottom-left-radius: 10px;
+}
+
+.third-row .c3 {
+    border-bottom-right-radius: 10px;
+}
+
+.first-row .c1 {
+    border-top-left-radius: 10px;
+}
+
+.first-row .c3 {
+    border-top-right-radius: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    background-color: rgb(213, 214, 214);
+    border-radius: 10px;
+
+}
+
+.reset {
+    margin-top: 5vw;
+    background-color: rgb(204, 206, 206);
+    padding: 1vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reset:hover {
+    background-color: rgb(221, 221, 221);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.player1, .player2 {
+    display: flex;
+}
+
+h5 {
+    /* padding: 1px; */
+    padding-left: .2rem;
+    font-size: 1.1rem;
+}
+
+/* show popup */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 24vw;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -12vw;
+    margin-bottom: -10vh;;
+}
+  
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+  
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* displaying popup properly */
+
+@media only screen and (max-width: 480px ) {
+    .popup .popuptext {
+        margin-left: -17vw;
+        margin-bottom: -10vh;
+        width: 35vw;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
