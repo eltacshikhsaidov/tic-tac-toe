@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T17:41:10.148Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="iGjCb4tckeHwxdEVSqVY" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T18:08:21.514Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xeGL0ZeKswsNyJJd5nT1" version="20.6.0" type="github">
   <diagram id="UEEJeeri9Iz10oDy9NeJ" name="Страница 1">
-    <mxGraphModel dx="1961" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3474" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,12 +232,14 @@
         <mxCell id="TdXXtB4wiW-Buo-MOeaE-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TdXXtB4wiW-Buo-MOeaE-33" target="TdXXtB4wiW-Buo-MOeaE-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TdXXtB4wiW-Buo-MOeaE-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.83;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TdXXtB4wiW-Buo-MOeaE-33" target="TdXXtB4wiW-Buo-MOeaE-57" edge="1">
+        <mxCell id="TdXXtB4wiW-Buo-MOeaE-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TdXXtB4wiW-Buo-MOeaE-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="360" />
-              <mxPoint x="1143" y="360" />
+              <mxPoint x="1120" y="360" />
+              <mxPoint x="1120" y="478" />
             </Array>
+            <mxPoint x="1120" y="478" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TdXXtB4wiW-Buo-MOeaE-33" value="account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
